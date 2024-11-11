@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(187, 225, 225);
+}
+
+.calculator {
+    width: 470px;
+    height: 600px;
+    margin: 70px auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 5px silver;
+    background-image: url("./img/avocado.webp");
+    background-size: 50%;
+    box-shadow: grey 2px 2px 1px 1px;
+}
+
+.display {
+    width: 100%;
+    height: 80px;
+    margin: 26px auto;
+
+    text-align: right;
+    box-sizing: border-box;
+    border: solid 5px rgb(86, 83, 83);
+    background-color: #f1f3f6;
+    font-size: 70px;
+    border-radius: 10px;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+.button {
+    text-align: center;
+    border-radius: 10px;
+    color: #61150e;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: #dbf1a5;
+    margin: 2px 2px;
+    padding: 10px 10px;
+    border: solid 5px rgb(49, 142, 160);
+    width: 23%;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn_green {
+    background-color: #69c06a;
+}
+
+.btn_max {
+    padding: 10px 96px;
+}
+
+.button:hover {
+    background-color: #448537;
+}
